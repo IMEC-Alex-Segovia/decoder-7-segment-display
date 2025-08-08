@@ -24,6 +24,12 @@ begin
             when "0111" => DISP <= "0000111";
             when "1000" => DISP <= "1111111";
             when "1001" => DISP <= "1101111";
+            when "1010" => DISP <= "1110111";
+            when "1011" => DISP <= "1111100";
+            when "1100" => DISP <= "0111001";
+            when "1101" => DISP <= "1011110";
+            when "1110" => DISP <= "1111001";
+            when "1111" => DISP <= "1110001";
             when others => DISP <= (others => '0');
         end case;
     end process;
